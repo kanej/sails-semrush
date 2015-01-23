@@ -1,0 +1,29 @@
+{
+  "name": "sails-semrush",
+  "description": "A SEMRush API library for Node.js and Sails.js",
+  "tags": [
+    "SEMRush",
+    "util"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Scott B. Wyatt",
+    "email": "scottwyatt86@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "nodeunit": ">=0.6.2"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "csv-parse": "0.0.6",
+    "lodash": "^2.4.1",
+    "querystring": "^0.2.0"
+  }
+}
