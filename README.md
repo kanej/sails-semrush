@@ -10,13 +10,13 @@ You can install this through npm: npm install sails-semrush
 
 Usage
 -----
-    var SEMRushAPI = require('node-semrush');
+    var SEMRushAPI = require('sails-semrush');
     var semrush = new SEMRushAPI('<YOUR API KEY>');
     
     semrush.<ReportType>('<DOMAIN>', {<RequestParams>}, function(err, response) {
       if (err) throw err;
 
-      // sails-semrush returns camelCased columns names converted to JSON.
+      // sails-semrush returns camelCased columns names and then the csv is converted to JSON.
       // See http://www.semrush.com/api.html for format of returned object before camelCasing and special character removal. 
       
 
@@ -27,4 +27,4 @@ Usage
 
 Discrepancies
 -------------
-SEMRush loves to return data in a csv format with certain columns containing special characters that are not allowed in databases such as mongodb. sails-semrush gets rid of that and removes special characters and camelCases the column names before exporting it in JSON. This makes it more native to Node.js. As always, I'm very open to Pull Requests!
+SEMRush loves to return data in a csv format with certain columns containing special characters that are not allowed in databases such as mongodb. sails-semrush gets rid of that and removes special characters while camelCasing the column names before exporting the csv as JSON. This makes it more native to Node.js. As always, I'm very open to Pull Requests!
