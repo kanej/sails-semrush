@@ -23,8 +23,6 @@
   "devDependencies": {
     "nodeunit": ">=0.6.2"
   },
-  "directories": {},
-  "readme": "ERROR: No README data found!",
   "dependencies": {
     "csv-parse": "0.0.6",
     "lodash": "^2.4.1",
