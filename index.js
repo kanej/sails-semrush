@@ -83,6 +83,10 @@ module.exports = SEMRushAPI;
     this.phrase_fullsearch = function(phrase, customParams, cb) {
       this._keywordRequest('phrase_fullsearch', phrase, customParams, cb);
     };
+    
+    this.phrase_kdi = function(phrase, customParams, cb) {
+      this._keywordRequest('phrase_kdi', phrase, customParams, cb);
+    };
 
     this._domainRequest = function (type, domain, customParams, cb) {
 
