@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/scott-wyatt/sails-semrush.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Scott B. Wyatt",
     "email": "scottwyatt86@gmail.com"
