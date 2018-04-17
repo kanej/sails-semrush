@@ -1,5 +1,5 @@
 {
-  "name": "@kanej/sails-semrush",
+  "name": "kanej-sails-semrush",
   "description": "A SEMRush API library for Node.js and Sails.js",
   "tags": [
     "SEMRush",
