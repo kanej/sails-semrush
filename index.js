@@ -1,7 +1,7 @@
 var parse = require('csv-parse');
 var extend = require('./extend');
 var querystring = require('querystring');
-var http = require('http');
+var https = require('https');
 var _ = require('lodash');
 
 var SEMRushAPI = function(apiKey, options){
@@ -115,9 +115,9 @@ module.exports = SEMRushAPI;
     this._doRequest = function(params, customParams, cb) {
       extend(params, this.defaultParams, customParams);
 
-      var path = 'http://' + this.options.hostname + '/?' + querystring.stringify(params);
+      var path = 'https://' + this.options.hostname + '/?' + querystring.stringify(params);
 
-      var req = http.get(path, function(res) {
+      var req = https.get(path, function(res) {
         
       var data = [];
 
