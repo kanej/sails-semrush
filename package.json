@@ -1,5 +1,5 @@
 {
-  "name": "sails-semrush",
+  "name": "@kanej/sails-semrush",
   "description": "A SEMRush API library for Node.js and Sails.js",
   "tags": [
     "SEMRush",
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/scott-wyatt/sails-semrush.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Scott B. Wyatt",
     "email": "scottwyatt86@gmail.com"
